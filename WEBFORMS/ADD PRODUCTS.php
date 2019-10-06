@@ -40,60 +40,93 @@ if($PRODUCT_NAME!=="" && $PRODUCT_PRICE!=="" && $WEIGHT!=="" &&$QUANTITY!=="" &&
 ?>
 
 
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>CARTIGO Management System(Add Products)</title>
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script>
+
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel10").slideToggle("slow");
+        
+    });
+});
+
+</script>
+<style>
+#flip, #panel{
+    padding: 5px;
+    text-align:center;
+    background-color: #e5eecc;
+    border: solid 10px #c3c3c3;
+}
+
+#panel{
+    padding: 50px;
+    display:none;
+}
+
+</style>
+
 </head>
 <body>
 
-<body background="images/background.jpg"><br />
+<body background="images/Homepage.jpg"><br />
   <div class="container">
    <h2 align="center" style="font:100px; border: dotted;background-color: lightblue"><b>CARTIGO MANAGEMENT SYSTEM </b>
     <img src="images/logo.jpg" width="600" height="100"></h2>
    <br />
-
-<div class="panel-heading" align="center" style="color: black;border:solid;background-color: lightblue"><label><b><U>ADD PRODUCTS</U></b></label></div>
+<!-- <div id="flip"><h2>ADD PRODUCTS:</h2></div>
+ -->
+<div id="flip" class="panel-heading"  style="color: black;border:solid;background-color:lightblue"><label><h3><ul><b><u>ADD PRODUCTS:</u></h3></label>
+</div>
 <br>   
 
-<div class="panel panel-default" >
+<div class="panel panel-default" style="border:;background: transparent;" >
 <div class="panel-body"  style="border: solid;">
-<form  method="POST">
+<form id="panel10"  method="POST">
       <?php echo $message; ?>
-<div class="input_panel">
-       <label ><b>PRODUCT_NAME :</b></label>
+       <div class="input_panel" style="border:solid;background: transparent;background-color: lightblue">
+       <label><ul><b>PRODUCT_NAME:</b></label>
        <input type="text" name="PRODUCT_NAME" class="form-control" value="" required , placeholder="ENTER PRODUCT-NAME" />
-</div>
+        </div>
 <br>
-       <div class="input_panel">
-         <label ><b>PRODUCT_PRICE :</b></label>
+       <div class="input_panel" style="border:solid;background: transparent;background-color: lightblue">
+         <label><ul><b>PRODUCT_PRICE :</b></label>
          <input type="number" name="PRODUCT_PRICE" class="form-control" value="" required placeholder="ENTER PRODUCT-PRICE" />
        </div>
-             <br>
-       <div class="input_panel">
-         <label ><b>WEIGHT :</b></label>
+<br>
+       <div class="input_panel" style="border:solid;background: transparent;background-color: lightblue">
+         <label><ul><b>WEIGHT :</b></label>
          <input type="text" name="WEIGHT" class="form-control" value=""  placeholder="ENTER WEIGHT" />
        </div>
-              <br>      
-       <div class="input_panel">
-         <label ><b>QUANTITY :</b></label>
+<br>      
+       <div class="input_panel" style="border:solid;background: transparent;background-color: lightblue">
+         <label><ul><b>QUANTITY :</b></label>
          <input type="text" name="QUANTITY" class="form-control" value="" required placeholder="ENTER QUANTITY" />
        </div>
-                    <br>
-       <div class="input_panel">
-       <label ><b>RFID_TAG :</b></label>
+<br>
+       <div class="input_panel" style="border:solid;background: transparent;background-color: lightblue">
+       <label><ul><b>RFID_TAG:</b></label>
        <input type="number" name="RFID_TAG" class="form-control" value="" required placeholder="ENTER RFID-TAG" />
        </div>
-             <br>
-       <div class="input_panel">
-       <label ><b>PRODUCT_ID :</b></label>
+<br>
+       <div class="input_panel" style="border:solid;background: transparent;background-color: lightblue">
+       <label><ul><b>PRODUCT_ID:</b></label>
        <input type="number" name="PRODUCT_ID" class="form-control" value="" required placeholder="ENTER PRODUCT-ID" />
        </div>
-             <br>
-
-       <div class="input_panel">
-       <label ><b>PRODUCT_TYPE :</b></label>
+<br>
+       <div class="input_panel" style="border:solid;background: transparent;background-color: lightblue">
+       <label><ul><b>PRODUCT_TYPE :</b></label>
        <input type="text" name="PRODUCT_TYPE" class="form-control" value="" required placeholder="ENTER PRODUCT-TYPE"/>
         <!-- <select id="PRODUCT_TYPE" name="PRODUCT_TYPE" required="">
          <option value="--">--</option>
@@ -107,15 +140,15 @@ if($PRODUCT_NAME!=="" && $PRODUCT_PRICE!=="" && $WEIGHT!=="" &&$QUANTITY!=="" &&
          </select>
  -->
        </div>
-             <br>
-       <div class="input_panel">
-       <label><b>PRODUCT_DESCRIPTION :</b></label>
+<br>
+       <div class="input_panel" style="border:solid;background: transparent;background-color: lightblue">
+       <label><ul><b>PRODUCT_DESCRIPTION :</b></label>
        <input type="text" name="PRODUCT_DESCRIPTION" class="form-control" value="" required placeholder="ENTER PRODUCT-DESCRIPTION" />
       </div>
 
       	<hr>
 
-      	<input type="submit" name="save" value="submit">
+      	<input type="submit" name="save" value="ADD PRODUCT">
 
   <!-- <button action="conn_db.php" type="Save" class="btn" name="Save" value="Save"><b>Save:</b></button> -->
   
