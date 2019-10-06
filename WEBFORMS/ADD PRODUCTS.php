@@ -80,55 +80,58 @@ $(document).ready(function(){
 </head>
 <body>
 
-<body background="images/Homepage.jpg"><br />
+<body background="images/background2.jpg"><br />
   <div class="container">
-   <h2 align="center" style="font:100px; border: dotted;background-color: lightblue"><b>CARTIGO MANAGEMENT SYSTEM </b>
-    <img src="images/logo.jpg" width="600" height="100"></h2>
+   <img src="images/logo.jpg" align="center" width="1140" height="150" >
+   <h2 align="center" style="font:100px; border:solid;background-color:lightgrey"><b><i>CARTIGO MANAGEMENT SYSTEM </i></b>
+    </h2>
+
    <br />
-<!-- <div id="flip"><h2>ADD PRODUCTS:</h2></div>
- -->
-<div id="flip" class="panel-heading"  style="color: black;border:solid;background-color:lightblue"><label><h3><ul><b><u>ADD PRODUCTS:</u></h3></label>
-</div>
+<div id="flip" style="border:outset;background-color:lavender"><h3><b>ADD PRODUCTS:</b></h3></div>
+
+<!-- <div id="flip" class="panel-heading"  style="color: black;border:solid;background-color:lavender"><label><h3><ul><b><u>ADD PRODUCTS:</u></h3></label>
+</div> -->
 <br>   
 
-<div class="panel panel-default" style="border:;background: transparent;" >
-<div class="panel-body"  style="border: solid;">
+<div class="panel panel-default" style="background: transparent;" >
+<div class="panel-body"  style="border:solid;">
 <form id="panel10"  method="POST">
       <?php echo $message; ?>
-       <div class="input_panel" style="border:solid;background: transparent;background-color: lightblue">
-       <label><ul><b>PRODUCT_NAME:</b></label>
-       <input type="text" name="PRODUCT_NAME" class="form-control" value="" required , placeholder="ENTER PRODUCT-NAME" />
+       <div class="input_panel" style="background: transparent;background-color:lavender ">
+       <ul><h4><b>PRODUCT_NAME:</b></h4>
+       
+       <input type="text" name="PRODUCT_NAME" class="form-control" value="" required="" , placeholder="ENTER PRODUCT-NAME" style="width: 10in" />
         </div>
 <br>
-       <div class="input_panel" style="border:solid;background: transparent;background-color: lightblue">
-         <label><ul><b>PRODUCT_PRICE :</b></label>
-         <input type="number" name="PRODUCT_PRICE" class="form-control" value="" required placeholder="ENTER PRODUCT-PRICE" />
+       <div class="input_panel" style="background: transparent;background-color:lavender ">
+         <ul><h4><b>PRODUCT_PRICE:</b></h4>
+         <input type="number" name="PRODUCT_PRICE" class="form-control" value="" required="" placeholder="ENTER PRODUCT-PRICE" style="width: 10in" />
        </div>
 <br>
-       <div class="input_panel" style="border:solid;background: transparent;background-color: lightblue">
-         <label><ul><b>WEIGHT :</b></label>
-         <input type="text" name="WEIGHT" class="form-control" value=""  placeholder="ENTER WEIGHT" />
+       <div class="input_panel" style="background: transparent;background-color:lavender">
+         <ul><h4><b>WEIGHT :</b></h4>
+         <input type="text" name="WEIGHT" class="form-control" value=""   placeholder="ENTER WEIGHT" style="width: 10in" />
        </div>
 <br>      
-       <div class="input_panel" style="border:solid;background: transparent;background-color: lightblue">
-         <label><ul><b>QUANTITY :</b></label>
-         <input type="text" name="QUANTITY" class="form-control" value="" required placeholder="ENTER QUANTITY" />
+       <div class="input_panel" style="background: transparent;background-color:lavender ">
+         <ul><h4><b>QUANTITY :</b></h4>
+         <input type="text" name="QUANTITY" class="form-control" value="" required="" placeholder="ENTER QUANTITY" style="width: 10in"/>
        </div>
 <br>
-       <div class="input_panel" style="border:solid;background: transparent;background-color: lightblue">
-       <label><ul><b>RFID_TAG:</b></label>
-       <input type="number" name="RFID_TAG" class="form-control" value="" required placeholder="ENTER RFID-TAG" />
+       <div class="input_panel" style=";background: transparent;background-color:lavender ">
+       <ul><h4><b>RFID_TAG:</b></h4>
+       <input type="number" name="RFID_TAG" class="form-control" value="" required="" placeholder="ENTER RFID-TAG" style="width: 10in"/>
        </div>
 <br>
-       <div class="input_panel" style="border:solid;background: transparent;background-color: lightblue">
-       <label><ul><b>PRODUCT_ID:</b></label>
-       <input type="number" name="PRODUCT_ID" class="form-control" value="" required placeholder="ENTER PRODUCT-ID" />
+       <div class="input_panel" style="background: transparent;background-color:lavender ">
+       <ul><h4><b>PRODUCT_ID:</b></h4>
+       <input type="number" name="PRODUCT_ID" class="form-control" value="" required="" placeholder="ENTER PRODUCT-ID" style="width: 10in" />
        </div>
 <br>
-       <div class="input_panel" style="border:solid;background: transparent;background-color: lightblue">
-       <label><ul><b>PRODUCT_TYPE :</b></label>
-       <input type="text" name="PRODUCT_TYPE" class="form-control" value="" required placeholder="ENTER PRODUCT-TYPE"/>
-        <!-- <select id="PRODUCT_TYPE" name="PRODUCT_TYPE" required="">
+       <div class="input_panel" style="background: transparent;background-color:lavender ">
+       <ul><h4><b>PRODUCT_TYPE :</b></h4>
+  <!--      <input type="text" name="PRODUCT_TYPE" class="form-control" value="" required placeholder="ENTER PRODUCT-TYPE" style="width: 10in"/> -->
+        <select id="PRODUCT_TYPE" name="PRODUCT_TYPE" required="" style="width: 10in;height: 0.25IN">
          <option value="--">--</option>
          <option value="SPORTS">SPORTS</option>
          <option value="STATIONARIES">STATIONARIES</option>
@@ -138,19 +141,19 @@ $(document).ready(function(){
          <option value="BISCUITS">BISCUITS</option>
          <option value="CHOCOLATE">CHOCOLATE</option>
          </select>
- -->
+
        </div>
 <br>
-       <div class="input_panel" style="border:solid;background: transparent;background-color: lightblue">
-       <label><ul><b>PRODUCT_DESCRIPTION :</b></label>
-       <input type="text" name="PRODUCT_DESCRIPTION" class="form-control" value="" required placeholder="ENTER PRODUCT-DESCRIPTION" />
+       <div class="input_panel" style="background: transparent;background-color:lavender ">
+       <ul><h4><b>PRODUCT_DESCRIPTION :</b></h4>
+       <input type="text" name="PRODUCT_DESCRIPTION" class="form-control" value=""  placeholder="ENTER PRODUCT-DESCRIPTION" style="width: 10in"/>
       </div>
 
       	<hr>
 
       	<input type="submit" name="save" value="ADD PRODUCT">
 
-  <!-- <button action="conn_db.php" type="Save" class="btn" name="Save" value="Save"><b>Save:</b></button> -->
+
   
 </form>
 <hr>
