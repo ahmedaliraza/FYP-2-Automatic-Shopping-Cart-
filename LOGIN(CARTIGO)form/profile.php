@@ -24,11 +24,9 @@ header("location: index.php"); // Redirecting To Home Page
   <br/>
   <div class="container" align="center" >
     <img src="images/logo.jpg"  height="200" width="1000" > 
-<!--    <h2 align="center" style="font:100px; border:solid; background-color:lavender; "><b><u>CARTIGO MANAGEMENT SYSTEM </u></b></h2> -->
+
 <br>
-<!-- <div class="panel panel-default" >
-<div class="panel-body"  style="border: solid;">
- -->  <br>
+ <br>
 <form class="form_group">
    <nav class="navbar navbar-inverse" style="background-color:lavender">
   <div class="container-fluid" style="background-color:lightblue ">
@@ -43,24 +41,6 @@ header("location: index.php"); // Redirecting To Home Page
     </ul>
   </div>
 </nav>
-<!-- <div class="form_group">
-         <label  class="form_control" style="border:solid;color:black ;background-color:lightblue; " ><b>
-          <a href="ADD PRODUCTS.php" style="color: black">ADD PRODUCTS</a></b></label>
-
-       </div>
-<br>
-<div class="form-group">
-       <label class="form_control" style="border: solid;color: black; background-color:lightblue; "><b><a href="update.html" style="color: black">UPDATE PRODUCTS</a></b></label>
-       
-</div>
-<br>
-<div class="form-group">
-       <label class="form_control" style="border: solid;color: black; background-color:lightblue; "><b><a href="DELETE(new).php" style="color: black">DELETE PRODUCTS</a></b></label>
-</div>
-<br>
-<div class="form-group">
-       <label class="form_control" style="border:solid;color: black; background-color:lightblue; "><b><a href="Get_prd_info.php" style="color: black">GET PRODUCTS INFORMATION</a></b></label>
-</div> -->
 <br>
  </body>
  <footer>
