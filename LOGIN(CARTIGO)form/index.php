@@ -10,8 +10,6 @@ header("location: profile.php"); // Redirecting To Profile Page
 <title>CMS Login</title>
 <div align="center"><img src="images/logo.jpg" width="1000" height="200"></div>
 <link href="style.css" rel="stylesheet" type="text/css">
-      <!-- <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-    -->   
 </head>
 <body>
         <div id="login">
