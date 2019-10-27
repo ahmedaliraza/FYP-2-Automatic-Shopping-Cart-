@@ -43,12 +43,10 @@ void loop()
   {
     return;
   }
-   Select one of the cards
   if ( ! mfrc522.PICC_ReadCardSerial()) 
   {
     return;
   }
-  Show UID on serial monitor
   Serial.print("UID tag :");
   String content= "";
   byte letter;
