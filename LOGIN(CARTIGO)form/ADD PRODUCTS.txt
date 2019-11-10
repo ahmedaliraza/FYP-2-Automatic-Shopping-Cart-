@@ -29,7 +29,7 @@
        <input type="text" name="PRODUCT-NAME" class="form-control" required , placeholder="ENTER PRODUCT-NAME" />
        </div>
        
-       <div class="form-group" >
+       <div class="form-group" > 
        <label style="color: black; border:solid;background-color: grey"><b>PRODUCT-PRICE :</b></label>
        <input type="value" name="PRODUCT-PRICE" class="form-control" required placeholder="ENTER PRODUCT-PRICE" /></div>
        
