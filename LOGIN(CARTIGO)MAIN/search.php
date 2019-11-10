@@ -1,7 +1,6 @@
 <?php
 include("conn_db.php");
 
- // $RFID_ID=$_POST['RFID_ID'];
 
 if (isset($_GET['SEARCH'])) {
 $sql = "SELECT * FROM products WHERE CONCAT(`PRODUCT_ID`, `PRODUCT_NAME`,`WEIGHT` ,`PRODUCT_PRICE`, `RFID_TAG`)";
@@ -25,8 +24,6 @@ if($result = mysqli_query($conn, $sql)){
             echo "</tr>";
         }
         echo "</table>";
-        // Free result set
- //       mysqli_free_result($result);
     } else{
         echo "No records matching your query were found.";
     }
@@ -34,6 +31,5 @@ if($result = mysqli_query($conn, $sql)){
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($conn);
 }
  }
-// Close connection
 mysqli_close($conn);
 ?>
