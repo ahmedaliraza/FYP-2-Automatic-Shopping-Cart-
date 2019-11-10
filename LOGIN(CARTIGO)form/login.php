@@ -33,4 +33,4 @@ mysqli_close($conn); // Closing Connection
 <body background="back5.jpg">
 
 </body>
-</html>
+</html>   
