@@ -82,7 +82,7 @@ if(digitalRead(MODE_BUTTON)==LOW){
 }
 
 if(digitalRead(TOTAL_BUTTON)==HIGH){
-  /*if(total_button_state==HIGH){
+  if(total_button_state==HIGH){
     total_button_state=LOW;
     delay(300);
   }
@@ -114,23 +114,24 @@ if(digitalRead(TOTAL_BUTTON)==HIGH){
    }
    
     delay(300);
-  //} 
+  } 
 }
-//Serial.println(total_button_state);
+Serial.println(total_button_state);
 
   if ( ! mfrc522.PICC_IsNewCardPresent()) 
   {
     return;
   }
-  // Select one of the cards
+ 
   if ( ! mfrc522.PICC_ReadCardSerial()) 
   {
     return;
   }
 
     lcd.clear();
-  //Show UID on serial monitor
-  Serial.print("UID tag :");
+ 
+	
+Serial.print("UID tag :");
   
 String strID = "";
   for (byte i = 0; i < 4; i++) {
@@ -143,9 +144,9 @@ String strID = "";
   Serial.println(strID);
 
   Serial.println(mode_button_state);
-  //Serial.println(total_button_state);
+  Serial.println(total_button_state);
 
-  //HTTPClient http;
+  HTTPClient http;
   String url =host+"RFID/updateCart.php?rfid="+strID;
   if(mode_button_state==LOW){
     url+="&action=1";
@@ -167,8 +168,8 @@ String strID = "";
     Serial.println(error.c_str());
     return;
   }
-//code for lcd menu
-  lcd.setCursor(0, 0);  
+
+lcd.setCursor(0, 0);  
   lcd.print("NOP:");
   lcd.setCursor(14, 1);  
   lcd.print("Mode:");
