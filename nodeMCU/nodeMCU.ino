@@ -32,7 +32,7 @@ void setup() {
 
 
 pinMode(MODE_BUTTON,INPUT_PULLUP);
-pinMode(TOTAL_BUTTON,INPUT);
+pinMode(TOTAL_BUTTON,INPUT); 
 digitalWrite(TOTAL_BUTTON,LOW);
 Wire.begin(D2, D1);   
 lcd.init();      
