@@ -34,7 +34,7 @@ CREATE TABLE `bills` (
   `amount` decimal(13,2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
+--  
 -- Dumping data for table `bills`
 --
 
