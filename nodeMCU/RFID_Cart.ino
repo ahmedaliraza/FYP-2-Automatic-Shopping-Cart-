@@ -34,14 +34,14 @@ void setup() {
 pinMode(MODE_BUTTON,INPUT_PULLUP);
 pinMode(TOTAL_BUTTON,INPUT);
 digitalWrite(TOTAL_BUTTON,LOW);
-Wire.begin(D2, D1);   //Use predefined PINS consts
-lcd.begin();      // The begin call takes the width and height. This
-//lcd.init();                      // Should match the number provided to the constructor.
+Wire.begin(D2, D1);  
+lcd.begin();      
+//lcd.init();                      
 
-lcd.backlight();      // Turn on the backlight.
+lcd.backlight();     
 
 lcd.clear();
-lcd.setCursor(0, 0);  // Move the cursor at origin
+lcd.setCursor(0, 0); 
 lcd.print("  IQRA  UNIVERSITY  ");
 lcd.setCursor(0, 1);
 lcd.print("  CARTIGO  ");
@@ -70,7 +70,7 @@ delay(4000);
   lcd.print(WiFi.localIP());
   delay(3000);
   lcd.clear();
-  lcd.setCursor(0, 0);  // Move the cursor at origin
+  lcd.setCursor(0, 0);  
   lcd.print("Cart is ready");
  
 }
@@ -137,6 +137,7 @@ if(digitalRead(TOTAL_BUTTON)==HIGH){
   }
 
     lcd.clear();
+	
   //Show UID on serial monitor
   Serial.print("UID tag :");
   
@@ -175,13 +176,14 @@ String strID = "";
     Serial.println(error.c_str());
     return;
   }
-//code for lcd menu
-  lcd.setCursor(0, 0);  // Move the cursor at origin
+	
+//CODE;Bilal for lcd menu
+  lcd.setCursor(0, 0);  
   lcd.print("NOP:");
-  lcd.setCursor(14, 1);  // Move the cursor at origin
+  lcd.setCursor(14, 1); 
   lcd.print("Mode:");
-  lcd.setCursor(19, 1);  // Move the cursor at origin
-
+  lcd.setCursor(19, 1); 
+	
   if(mode_button_state==LOW){
     lcd.print("+");
   }else{
