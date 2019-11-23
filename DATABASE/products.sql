@@ -57,7 +57,7 @@ INSERT INTO `products` (`S_Number`, `PRODUCT_NAME`, `PRODUCT_PRICE`, `WEIGHT`, `
 (2, 'Shahtaj Cooking Oil (5KG)', '1050', '5KG', '1', 10, '10', 'Cooking Oil', 'Shahtaj Cooking oil of 5kg price is 1050/Rs'),
 (3, 'Manpasand Cooking Oil (5KG)', '950', '5KG', '1', 11, '11', 'Cooking Oil', 'Manpasand Cooking Oil 5KG price is 950/Rs'),
 (4, 'Habib Cooking Oil (1KG)', '200', '1KG', '1', 12, '12', 'Cooking Oil', 'Habib Cooking Oil of 1kg price is 200/Rs'),
-(5, 'Habib Cooking Oil (5KG)', '1000', '5KG', '1', 13, '13', 'Cooking Oil', 'Habib Cooking Oil 5KG price is 1000/Rs'),
+(5, 'Habib Cooking Oil (5KG)', '1000', '5KG', '1', 13,  '13', 'Cooking Oil', 'Habib Cooking Oil 5KG price is 1000/Rs'),
 (6, 'Tullo Cooking Oil (1KG)', '200', '1KG', '1', 14, '14', 'Cooking Oil', 'Tullo Cooking Oil for 1kg price is 200/Rs'),
 (7, 'Tullo Cooking Oil (5KG)', '1000', '5KG', '1', 15, '15', 'Cooking Oil', 'Tullo Cooking Oil for 5kg price is 1000/Rs'),
 (8, 'Kashmir Cooking Oil (1KG)', '200', '1KG', '1', 16, '16', 'Cooking Oil', 'Kashmir Cooking Oil for 1kg price is 200/Rs'),
