@@ -1,4 +1,4 @@
-<?php include("conn_db.php");
+<?php include("conn_db.php");  
 
 $PRODUCT_ID=$_POST['PRODUCT_ID'];
 //exit();
