@@ -30,7 +30,7 @@ $(document).ready(function(){
 }
 #panel{
     padding: 50px;
-    display:none;
+    display:none;  
 }
 table th,td{
   color:black;
