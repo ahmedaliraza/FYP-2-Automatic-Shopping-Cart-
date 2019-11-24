@@ -5,7 +5,7 @@ include("conn_db.php");
 if (isset($_GET['SEARCH'])) {
 $sql = "SELECT * FROM products WHERE CONCAT(`PRODUCT_ID`, `PRODUCT_NAME`,`WEIGHT` ,`PRODUCT_PRICE`, `RFID_TAG`)";
 if($result = mysqli_query($conn, $sql)){
-    if(mysqli_num_rows($result) >0){
+    if(mysqli_num_rows($result) >0){     
         echo "<table>";
             echo "<tr>";
                 echo "<th>PRODUCT_ID</th>";
