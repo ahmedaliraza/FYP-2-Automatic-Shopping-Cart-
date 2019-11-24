@@ -172,3 +172,4 @@ function dataLCD()
 
     return $json_data1;
 }
+  
