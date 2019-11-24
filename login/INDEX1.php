@@ -7,7 +7,7 @@ $database = new Database();
 $db = $database->getConnection();
 
 $product = new Product($db);
-
+  
 if (isset($_GET['delete-id'])) {
     if ($product->delete($_GET['delete-id'])) {
         echo "<div class='alert alert-success'>Product was deleted.</div>";
