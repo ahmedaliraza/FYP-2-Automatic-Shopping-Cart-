@@ -31,7 +31,7 @@ if (isset($_GET["rfid"]) && isset($_GET["action"])) {
                 fclose($fp);
                 $exists = true;
                 http_response_code(200);
-                echo json_encode(dataLCD());
+                echo json_encode(dataLCD());   
                 break;
             }
         }
