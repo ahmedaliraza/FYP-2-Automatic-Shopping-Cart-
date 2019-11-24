@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <script src="vendor/jquery/jquery.js"></script>
+    <script src="vendor/jquery/jquery.js"></script>   
     <script src="vendor/propper/js/propper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 </head>
