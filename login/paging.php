@@ -39,7 +39,7 @@ for ($x=$initial_num; $x<$condition_limit_num; $x++) {
 if($page<$total_pages){
     echo "<li class='page-item'><a class='page-link' href='" .$page_url. "page={$total_pages}' title='Last page is {$total_pages}.'>";
         echo "Last";
-    echo "</a></li>";
+    echo "</a></li>";  
 }
  
 echo "</ul>";
