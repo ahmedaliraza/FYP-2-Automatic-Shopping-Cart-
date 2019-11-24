@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html>
+<html>   
  <head>
   <title>CARTIGO Management System </title>  
   <script src="js/jquery-1.10.2.min.js"></script>
