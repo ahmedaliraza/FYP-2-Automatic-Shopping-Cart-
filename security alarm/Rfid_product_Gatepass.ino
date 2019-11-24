@@ -34,7 +34,7 @@ void setup() {
   mfrc522.PCD_DumpVersionToSerial();
   digitalWrite(buz, LOW);
 }
-
+  
 
 void loop()
 {
