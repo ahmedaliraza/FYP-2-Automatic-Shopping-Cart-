@@ -30,7 +30,7 @@ if($PRODUCT_NAME!=="" && $PRODUCT_PRICE!=="" && $WEIGHT!=="" &&$QUANTITY!=="" &&
 
  
 
-  $data =mysqli_query($conn,$query);
+  $data =mysqli_query($conn,$query);  
   
   if($data){
     $message = "";
