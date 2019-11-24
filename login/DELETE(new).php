@@ -5,7 +5,7 @@ include_once 'objects/product.php';
 include("login.php");
 
 ?>
-<!DOCTYPE html>
+<!DOCTYPE html>    
 <html>
  <head>
   <title>CARTIGO Management System </title>  
