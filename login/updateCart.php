@@ -46,7 +46,7 @@ if (isset($_GET["rfid"]) && isset($_GET["action"])) {
                 extract($row);
 
                 $json_data[count($json_data)] = array(
-                    "rfid" => $rfid,
+                    "rfid" => $rfid,  
                     "name" => $name,
                     "price" => $price,
                     "quantity" => "1"
