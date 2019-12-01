@@ -35,7 +35,7 @@ if (isset($_GET["rfid"]) && isset($_GET["action"])) {
                 break;
             }
         }
-
+    
         //if does not exists add new product
         if (!$exists) {
 
