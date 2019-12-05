@@ -3,7 +3,7 @@ class Product{
  
     // database connection and table name
     private $conn;
-    private $table_name = "products";
+    private $table_name = "products";   
  
     // object properties
     public $rfid;
