@@ -34,7 +34,7 @@ header("location: index.php"); // Redirecting To Home Page
     </div>
     <div class="container border">
         <div class="col-12 text-center">
-            <br>
+            <br>  
             <img class="img-fluid" src="images\logo.jpg" style="height:200;width: 1100" >
         </div>
         <div class="col-12">
