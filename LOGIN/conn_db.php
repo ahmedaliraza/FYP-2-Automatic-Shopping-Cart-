@@ -3,7 +3,7 @@
 $servername="localhost";
 $username="root";
 $password="";
-$dbname="rfid_inventory";
+$dbname="rfid_inventory";    
 
 $conn=mysqli_connect($servername,$username,$password,$dbname);
 if($conn){         
