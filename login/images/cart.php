@@ -7,7 +7,7 @@ header("location: index.php"); // Redirecting To Home Page
 
 <html>
 
-<head>
+<head>     
     <title>Cart | Cartigo</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
