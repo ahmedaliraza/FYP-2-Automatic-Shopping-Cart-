@@ -33,7 +33,7 @@ $(document).ready(function(){
     text-align:center;
     background-color: #e5eecc;
     border: solid 10px #c3c3c3;
-}
+}  
 #panel{
     padding: 50px;
     display:none;
