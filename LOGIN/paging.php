@@ -5,7 +5,7 @@ echo "<ul class='pagination'>";
 if($page>1){
     echo "<li class='page-item'><a class='page-link' href='{$page_url}' title='Go to the first page.'>";
         echo "First";
-    echo "</a></li>";
+    echo "</a></li>";  
 }
  
 // calculate total pages
