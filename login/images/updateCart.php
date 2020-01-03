@@ -3,7 +3,7 @@
 include_once 'config/database.php';
 include_once 'objects/product.php';
 
-$total = 0.00;
+$total = 0.00;    
 $json_data = json_decode(file_get_contents('cart.json'), true);
 for ($i = 0; $i < count($json_data); $i++) {
     $total += ($json_data[$i]["price"] * $json_data[$i]["quantity"]);
