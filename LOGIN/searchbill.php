@@ -33,7 +33,7 @@ $(document).ready(function(){
     background-color: #e5eecc;
     border: solid 10px #c3c3c3;
 }
-#panel{
+#panel{     
     padding: 50px;
     display:none;  
 }
