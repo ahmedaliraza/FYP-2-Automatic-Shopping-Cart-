@@ -6,7 +6,7 @@ header("location: index.php"); // Redirecting To Home Page
 ?>
 <!DOCTYPE html>
 <html>
- <head>          
+ <head>               
   <title>SEARCH(BILL)-CARTIGO Management System </title>  
   <script src="js/jquery-1.10.2.min.js"></script>
   <link rel="stylesheet" href="css/bootstrap.min.css" />
