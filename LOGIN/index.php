@@ -4,7 +4,7 @@ if(isset($_SESSION['login_user'])){
 header("location: profile.php"); // Redirecting To Profile Page
 }
 ?>
-<!DOCTYPE html>
+<!DOCTYPE html>    
 <html>
 <head >
 <title>CMS Login</title>
