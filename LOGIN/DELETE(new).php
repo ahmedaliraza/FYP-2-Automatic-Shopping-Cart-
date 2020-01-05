@@ -7,7 +7,7 @@ include("login.php");
 ?>
 <!DOCTYPE html>
 <html>
- <head>
+ <head>    
   <title>CARTIGO Management System </title>  
   <!-- <script src="js/jquery-1.10.2.min.js"></script>
   <link rel="stylesheet" href="css/bootstrap.min.css" />
