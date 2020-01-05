@@ -5,7 +5,7 @@ class Database{
     private $host = "localhost";
     private $db_name = "rfid_inventory";
     private $username = "root";
-    private $password = "";
+    private $password = "";   
     public $conn;   
   
     // get the database connection
