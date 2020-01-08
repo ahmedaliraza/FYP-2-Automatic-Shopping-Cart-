@@ -1,5 +1,0 @@
-Conclusion  The smart shopping trolley application creates an automated central billing system (ACBS) for supermarkets and malls. Using PID (product identification), customers will not have to wait near cash counters for their bill payment. Since their purchased product information is transferred to central billing system. Customers can pay their bill through credit/debit cards as well.  The system proposed is highly dependable, authentic, trustworthy and time-effective. There will be reduction in salary amount given to employees, reduction in theft. Also, the system is very time-efficient.  
- 
-Future Scope:
-  The proposed smart shopping trolley system intends to assist shopping in-person which will minimize the considerable amount of time spent in shopping as well as to time required in locating the desired product with ease. The customer just needs to type the name of the product he wants to search on the android device, and the cart will automatically guide him/her to the product/s locations. 
- 
