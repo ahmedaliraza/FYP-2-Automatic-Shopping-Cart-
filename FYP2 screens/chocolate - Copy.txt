@@ -1,0 +1,24 @@
+DairyMilk
+DairyMilk Bubly
+DairyMilk crackle
+Mars
+Snickers
+Twix 
+Kitkat
+Galaxy
+Bounty
+Skitles
+Smarties
+Toblerone
+M&Ms
+jubilee
+Perk
+Sonnet(candyland)
+Now(candyland)
+Cloud 9(candyland)
+Paradise(candyland)
+
+INSERT INTO `products` (`S.No#`, `PRODUCT-NAME`, `PRODUCT-PRICE`, `WEIGHT`, `QUANTITY`, `RFID-TAG`, `PRODUCT-ID`, `PRODUCT-TYPE`, `PRODUCT-DESCRIPTION`) VALUES (NULL, 'Cadbury Dairy Milk Chocolate (65/Rs)', '65', '', '1', '42', '42', 'CHOCOLATE', 'CADBURY DAIRYMILK CHOCOLATE PRICE 65/Rs'), (NULL, 'Cadbury Dairy Milk Chocolate (100/Rs)', '100', '', '1', '43', '43', 'CHOCOLATE', 'CADBURY DAIRY MILK CHOCOLATE PROCE 100/Rs'),(NULL, 'Cadbury Dairy Milk Chocolate(BUBBLY) (35/Rs)', '35', '', '1', '44', '44', 'CHOCOLATE', 'CADBURY DAIRYMILK CHOCOLATE(BUBBLY) PRICE 35/Rs'), (NULL, 'Cadbury Dairy Milk Chocolate(BUBBLY) (55/Rs)', '55', '', '1', '45', '45', 'CHOCOLATE', 'CADBURY DAIRY MILK CHOCOLATE PRICE 55/Rs'),(NULL, 'Cadbury Dairy Milk Chocolate(BUBBLY) (110/Rs)', '110', '', '1', '46', '46', 'CHOCOLATE', 'CADBURY DAIRYMILK CHOCOLATE(BUBBLY) PRICE 110/Rs'), (NULL, 'Cadbury Dairy Milk Chocolate(Crackle) (25/Rs)', '25', '', '1', '47', '47', 'CHOCOLATE', 'CADBURY DAIRY MILK CHOCOLATE (Crackle) PRI[...]
+
+
+INSERT INTO `products` (`S.No#`, `PRODUCT-NAME`, `PRODUCT-PRICE`, `WEIGHT`, `QUANTITY`, `RFID-TAG`, `PRODUCT-ID`, `PRODUCT-TYPE`, `PRODUCT-DESCRIPTION`) VALUES ('', 'TWIX', '60', '', '1', '51', '51', 'CHOCOLATE', 'TWIX CHOCOLATE PRICE 60/Rs'),('', 'KITKAT', '60', '', '1', '52', '52', 'CHOCOLATE', 'KITKAT CHOCOLATE PRICE 60/Rs'),('', 'GALAXY (DARK) Chocolate', '225', '', '1', '53', '53', 'CHOCOLATE', 'GALAXY (DARK) CHOCOLATE PRICE 225/Rs'),('', 'BOUNTY Chocolate', '60', '', '1', '54', '54', 'CHOCOLATE', 'BOUNTY CHOCOLATE PRICE 60/Rs'),('', 'NOW(CANDYLAND) Chocolate', '5', '5 Grams', '1', '55', '55', 'CHOCOLATE', 'NOW(CANDYLAND) CHOCOLATE PRICE 5/Rs'),('', 'NOW(CANDYLAND) Chocolate(10)', '10', '7 Grams', '1', '56', '56', 'CHOCOLATE', 'NOW(CANDYLAND) CHOCOLATE PRICE 10/Rs'),('', 'Jubilee(CANDYLAND) Chocolate', '5', '5 Grams', '1', '57', '57', 'CHOCOLATE', 'Jubilee CHOCOLATE PRICE 5/Rs'),('', 'Jubilee(CANDYLAND) Chocolate(10)', '10', '7 Grams', '1', '58', '58', 'CHOCOLATE', 'Jubilee(CANDYLAND) CHOCOLATE PRICE 10/Rs'),('', 'SONNET(CANDYLAND) Chocolate', '5', '5 Grams', '1', '59', '59', 'CHOCOLATE', 'SONNET(CANDYLAND) CHOCOLATE PRICE 5/Rs'),('', 'SONNET(CANDYLAND) Chocolate(10)', '10', '7 Grams', '1', '60', '60', 'CHOCOLATE', 'SONNET(CANDYLAND) CHOCOLATE PRICE 10/Rs'),('', 'PERK(CANDYLAND) Chocolate', '5', '5 Grams', '1', '61', '61', 'CHOCOLATE', 'PERK(CANDYLAND) CHOCOLATE PRICE 5/Rs'),('', 'PERK(CANDYLAND) Chocolate(10)', '10', '7 Grams', '1', '62', '62', 'CHOCOLATE', 'PERK(CANDYLAND) CHOCOLATE PRICE 10/Rs'),('', 'PARADISE(CANDYLAND) Chocolate', '5', '5 Grams', '1', '63', '63', 'CHOCOLATE', 'PARADISE(CANDYLAND) CHOCOLATE PRICE 5/Rs'),('', 'PARADISE(CANDYLAND) Chocolate(10)', '10', '7 Grams', '1', '64', '64', 'CHOCOLATE', 'PARADISE(CANDYLAND) CHOCOLATE PRICE 10/Rs'),('', 'CLOUD-9 (CANDYLAND) Chocolate', '10', '7 Grams', '1', '65', '65', 'CHOCOLATE', 'CLOUD-9(CANDYLAND) CHOCOLATE PRICE 10/Rs');

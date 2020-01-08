@@ -1,0 +1,4 @@
+create table CartItems(Prd_Name varchar(50),Prd_Qty int,Cart_ID int,TotalAmount int,Bill_Date Date, Bill_Time Time )
+create table Products( Prd_Name varchar(50),Prd_Price int ,RFID_tags bit,Prd_ID varchar(50), Prd_Qty int)
+create table RFID(Prd_Name varchar(50), RFID_tags bit,Prd_Price int)
+create table Cart_ID(Total_Amount int,Bill_ID int)
