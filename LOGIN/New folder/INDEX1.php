@@ -5,7 +5,7 @@ include_once 'objects/product.php';
 // get database connection
 $database = new Database();    
 $db = $database->getConnection();
-    
+         
 $product = new Product($db);
 
 if (isset($_GET['delete-id'])) {
