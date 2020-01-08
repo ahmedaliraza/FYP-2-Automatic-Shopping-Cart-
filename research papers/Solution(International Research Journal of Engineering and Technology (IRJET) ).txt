@@ -1,0 +1,11 @@
+RFID BASED SMART TROLLEY FOR SUPERMARKET AUTOMATION :
+
+ FUTURE SCOPE 
+ 
+ Using a GSM module we can transfer the bill to mobile instead of printing it. ? Voice assistance can be included. 
+ Net banking can be included. 
+Robotic ARM can be used for picking and dropping of products. 
+ 
+ CONCLUSION 
+ 
+The progress in science and technology is a nonstop process. New things and new technologies are being invented. As the technology grows day by day, we can imagine about the future in which thing we may occupy every place. Hence this paper on RFID based smart trolley describes about purchasing the products with much ease and comfortable. 

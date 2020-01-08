@@ -1,0 +1,3 @@
+Solution:
+Smart shopping trolley application creates an automated central billing system in malls. By using the ZigBee, the product information are directly sent to billing system. So that customers no need to wait in a long queue. It is trustworthy, highly dependable and time efficiency. The proposed smart shopping trolley system will reduce the customers time in searching the location of the product. The customer just types the name of the product he/she want to purchase on android device. The trolley will automatically guide them to the location of the product. 
+ 
