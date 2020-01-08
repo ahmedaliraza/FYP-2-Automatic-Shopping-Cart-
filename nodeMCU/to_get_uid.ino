@@ -6,7 +6,7 @@
 
 
 #define RST_PIN         D3         // Configurable, see typical pin layout above
-#define SS_PIN          D4         // Configurable, see typical pin layout above
+#define SS_PIN          D4         // Configurable, see typical pin layout above     
 
 LiquidCrystal_I2C lcd(0x3F, 20, 4);
 MFRC522 mfrc522(SS_PIN, RST_PIN);  // Create MFRC522 instance
