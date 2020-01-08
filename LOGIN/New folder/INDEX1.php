@@ -33,7 +33,7 @@ if ($_POST) {
         $product->name = $_POST['name'];
         $product->price = $_POST['price'];
 
-        // create the product
+        // create the product   
         if ($product->create()) {
             echo "<div class='alert alert-success'>Product was created.</div>";
         }
