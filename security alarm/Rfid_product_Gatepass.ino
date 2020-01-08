@@ -3,7 +3,7 @@
 //****PIN CONFIGURATION****//
 //   COMPONENT  ARDUINO_PIN
 //   RST/Reset   RST    D9
-//   SPI SS      SDA    D10
+//   SPI SS      SDA    D10     
 //   SPI MOSI    MOSI   D11
 //   SPI MISO    MISO   D12    
 //   SPI SCK     SCK    D13
