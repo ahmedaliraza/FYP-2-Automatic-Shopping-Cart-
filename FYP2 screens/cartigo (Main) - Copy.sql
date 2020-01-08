@@ -5,7 +5,7 @@
 -- Host: 127.0.0.1
 -- Generation Time: Oct 20, 2019 at 02:07 PM
 -- Server version: 10.4.6-MariaDB
--- PHP Version: 7.1.32
+-- PHP Version: 7.1.32    
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
