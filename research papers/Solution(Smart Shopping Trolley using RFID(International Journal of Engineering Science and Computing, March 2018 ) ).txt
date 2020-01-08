@@ -1,4 +1,0 @@
-.CONCLUSION 
- 
-Taking into account the changing trend in retail shopping, we come to a conclusion that the Intelligent Shopping Basket is most certainly a definite necessity for the Retail marketing industry to step up their portfolios, cope up with the advancement in technology and save time and manpower. This project simplifies billing process, makes it swift and increases the security using RFID technique. 
- 
