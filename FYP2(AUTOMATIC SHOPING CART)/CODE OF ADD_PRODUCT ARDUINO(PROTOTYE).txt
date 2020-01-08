@@ -1,5 +1,5 @@
 //*************Automatic Shopping Cart*****************//
-//*******Group Members:BILAL AHMED  |  AHMED ALI RAZA| HAMZA ARIF ***************//
+//*******Group Members:BILAL AHMED  |  AHMED ALI RAZA| HAMZA ARIF ************//
 //****PIN CONFIGURATION****//
 //   COMPONENT  ARDUINO_PIN
 //   RST/Reset   RST    D9
