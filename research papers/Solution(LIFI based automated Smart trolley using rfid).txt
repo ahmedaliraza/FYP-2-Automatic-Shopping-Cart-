@@ -1,5 +1,0 @@
- FUTURE ENHANCEMENT ? In future, the LIFI technology can be used in vehicle to vehicle communication.  ? The LCD can be provided with a layout of the shopping market by which the customers can be able to get the exact information about the products present in different aisles. This increase user friendliness. ? The smart trolley could interact with customers during a shopping trip. For example, passing on discount vouchers based on where they are in the supermarket.  ? The movement of the trolley can be made automatically with the help of various sensors. In this way, there is no need to pull the heavy trolley. 
- 
-  CONCLUSION 
- 
-? The intended objective is successfully achieved in the    developed prototype model. ? The developed product is easy to use and does not require any specific training. It has the effective usage of LIFI technology and the smart trolley can minimize the queues in the mall. So that customer’s time can be saved
