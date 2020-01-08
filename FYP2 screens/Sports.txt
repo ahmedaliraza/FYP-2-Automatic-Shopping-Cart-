@@ -1,0 +1,43 @@
+Cricket Bats
+Fibre Bats
+Football
+Soccer Ball
+Table Tennis Table
+Table Tennis Rackets
+Table Tennis Net
+Table Tennis Balls packets
+Shittle Cocks Pack(12)
+Badminton Rackets(2)
+Tape Ball Pack
+Hockey Stick
+Hard Ball(Kokobora)
+Cycle(Diff sizes and brands)
+Dumbells(1kg)
+Dumbells(2kg)
+Dumbells(5kg)
+Dumbells(10kg)
+Dumbell(20kg)
+Weighing Machine
+Bat Grips
+Cricket Pads(2)RL
+Cricket Guard
+Cricket Gloves(2)RL
+Cricket Helmet
+Cricket Kit Bag
+BasketBall 
+Basket Ball Stand
+Boxing Gloves(2)RL
+Swimming Suit
+Swimming Goggles and etc.
+Ludo Games
+Chess
+Snooker Balls Sets 
+Snooker Stick 
+Track Suits(All sports)
+
+
+
+
+INSERT INTO `products` (`S.No#`, `PRODUCT-NAME`, `PRODUCT-PRICE`, `WEIGHT`, `QUANTITY`, `RFID-TAG`, `PRODUCT-ID`, `PRODUCT-TYPE`, `PRODUCT-DESCRIPTION`) VALUES (NULL, 'CRICKET BAT(CA)', '350', '', '1', '67', '67', 'SPORTS', 'CRICKET BAT (CA)');
+
+
